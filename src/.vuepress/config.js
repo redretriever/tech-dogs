@@ -1,7 +1,7 @@
 module.exports = {
   base: "/",
-
-  title: "tech-note",
+  dest: 'docs/',
+  title: "tech-dogs",
   description: "個人的なWEB開発メモのまとめ",
   locales: {
     "/": { lang: "ja" },

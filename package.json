@@ -7,8 +7,6 @@
   },
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "push": "gh-pages -d dist -b master",
-    "deploy": "npm run build && npm run push"
+    "build": "vuepress build src"
   }
 }
