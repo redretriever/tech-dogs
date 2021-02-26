@@ -46,12 +46,11 @@ module.exports = {
       });
     },
   },
-  plugins: [
-    "@vuepress/plugin-blog",
-    "@vuepress/last-updated",
-    "@vuepress/google-analytics",
-    {
-      ga: "UA-93586235-5",
-    },
-  ],
+  plugins: {
+    "@vuepress/plugin-blog": {},
+    "@vuepress/last-updated": {},
+    "@vuepress/google-analytics": {
+      'ga': "UA-93586235-5"
+    }
+  },
 };
