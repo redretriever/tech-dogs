@@ -1,8 +1,10 @@
 ---
 home: true
 ---
+## 技術
+<FavoriteTechnology />
 
-## 最近の投稿
+## ブログ
 
 <Posts v-bind:limit="10"/>
 

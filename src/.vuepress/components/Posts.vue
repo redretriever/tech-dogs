@@ -1,6 +1,6 @@
 // Posts.vue
 <template>
-  <div class="mt-5">
+  <div class="my-5">
     <Post v-for="(post, index) in posts" :key="index" v-bind="post" />
   </div>
 </template>
